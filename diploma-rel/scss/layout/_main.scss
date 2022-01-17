@@ -1,0 +1,31 @@
+.main {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-start;
+    max-width: 55%;
+    width: 100%;
+    border: em(10) solid white;
+
+    &__form {
+        width: 100%;
+        display: flex;
+        padding: em(20);
+        justify-content: center;
+        
+    }
+
+    .form-label {
+        font-size: em(20);
+        margin-bottom: em(20);
+    }
+
+    .nes-input {
+        padding: em(13);
+        width: em(500);
+        color: #000;
+    }
+
+    .send {
+        margin-top: em(20);
+    }
+}

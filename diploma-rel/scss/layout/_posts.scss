@@ -1,0 +1,76 @@
+.posts {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: em(20);
+   
+
+    &__container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    &__content {
+        margin-left: em(10);
+    }
+
+    &__exp {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        span {
+            font-size: em(30);
+        }
+    }
+
+    &__post {
+        width: 100%;
+        border: em(10) solid white;
+        padding: em(20);
+        margin-bottom: em(20);
+    }
+
+    &__box {
+        max-width: 55%;
+        height: em(470);
+        overflow-y: auto;
+    }
+
+    &__interactions {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    &__comments {
+        margin-left: em(20);    
+    }
+
+    &__name {
+        span {
+            font-size: em(22);
+        }
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: em(15);
+    }
+
+    &__date {
+        span {
+            font-size: em(16);
+        }
+    }
+
+    &__text {
+        line-height: 1.2;
+    }
+
+    &__share {
+        margin-left: em(20);
+    }
+}

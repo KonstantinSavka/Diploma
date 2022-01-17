@@ -1,0 +1,12 @@
+.body-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    font-family: 'Press Start 2P';
+    color: #fff;
+    background-color: #000;
+}
